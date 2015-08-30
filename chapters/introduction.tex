@@ -1,0 +1,29 @@
+\chapter{Introduction}\label{chapter:introduction}
+
+\section{Motivation}\label{section:introduction/motivation}
+%software architecture and its objectives, relating to responding to the change
+Software Architecture definition is an inevitable and crucial step for software development process. By defining an architecture, we define elements, their behavior, their structural composition to construct a system as a whole and various interfaces to characterize communication required between the elements. \cite{microsoft1501} The objective of building an architecture is not only to provide the desired functionalities but also to calibrate the quality of the software across various non-functional attributes such as availability, usability, performance etc. Modifiability is one among the various other quality attributes controlled by an architecture. \cite{Wesley0301}
+
+
+Software development process as well as development pattern play an equal role to define quality attributes. The quality attributes can be broadly classified as a)Structural and b)Process quality attributes. The structural quality attributes such as testability, modifiability, security etc are affected by the development pattern followed by developers. Adoption of a specific design pattern to solve a problem may be one example of a significant development approach. Similarly, the quality attributes are affected differently, based on the development methodology used. For example, an agile methodology will help to improve maintainability due to its approach of getting fast customer response.\cite{Chappell01}
+
+%change as the most probable expectation and impact of change
+Software change is unavoidable for many reasons. The changes are driven by difference between the software’s ability and expectations along time. Additionally, the focus on growing the software require it to undergo changes. Another reason can be to nullify the technical debt occurred along the development stages due to various compromising decisions made.\cite{elsevier0901}
+A research carried out by Agile Manifesto, whose result is shown by figure\ref{fig:requirementmismatch} suggests that a surprisingly higher percentage of projects actually fail to meet the requirements of the user.
+\begin{figure}[H]
+\begin{center}
+\includegraphics[width=0.8\textwidth]{figures/introduction-motivation}
+\caption{Percentage of Projects with Requirement mismatch \cite{Miyachi01}}
+\label{fig:requirementmismatch}
+\end{center}
+\end{figure}
+However, responding to change is not free and impose significant impact on software architecture and development methodology. The purpose of architecture and development methodology should be to incorporate those changes and lower the technical debt as swiftly as possible.\cite{Northrop1501} Any variation to software architecture affects coupling and cohesion and thus impacting understandability as well as complexity of the software.\cite{elsevier0901}
+
+The software development methodologies have come a long way undergoing a lot of modifications. Few of them to list would be waterfall model, spiral model, \acrshort{RAD} model and iterative model.\cite{CMS0801} Nevertheless, we have agile modeling, which works around some basic principles. Accepting change requirement at any stage of development and releasing software regularly are among the principles which supports to reduce the the cost of change.\cite{StellmanGreene1401}	
+
+%evolution of the software architecture and development methodology %SOA and microservices
+Accordingly, software architecture has changed in number of ways and in number of direction throughout the history of evolution. It has passed through monolithic, layered, distributed object, domain driven development, hexagonal, service oriented architecture etc. \cite{Sommerville0401} Nonetheless, we have microservices architecture with one of the major driving concepts being to improve cohesion and decrease coupling among components. This eventually, apart from accomplishing various other major goals, also upgrades the rate and efficiency of customizability.\cite{Newman1501}
+
+%orchestration micro service is not an exception to that
+Microservices are achieved by breaking down a system along business domains following Single Responsibility Principle. As the individual microservices achieved in such a way become the autonomous components, there is a need for a separate kind of component micro service in order to fulfill high-level business goals, which is Orchestration microservice. \cite{Newman1501} Regardless of following agile development methodology and microservice architecture, orchestration has been a painful and cumbersome area, considering the complexities being suffered when one has to make changes at any given point. There are a lot of technological and conceptual procedures around orchestration to make it less painful but at the same time there is no single agreement upon which one to follow.\cite{DanielPernici0601}
+

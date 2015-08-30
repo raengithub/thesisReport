@@ -1,0 +1,229 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 2.5 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \sortlist{anyt}{anyt}
+    \entry{StellmanGreene1401}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=dc16c2003929f1f5290b5cfeaf89b7e1}{Andrew\bibnamedelima Stellman}{A\bibinitperiod\bibinitdelim S\bibinitperiod}{Jennifer\bibnamedelima Greene}{J\bibinitperiod\bibinitdelim G\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{dc16c2003929f1f5290b5cfeaf89b7e1}
+      \strng{fullhash}{dc16c2003929f1f5290b5cfeaf89b7e1}
+      \field{labelalpha}{And14}
+      \field{sortinit}{A}
+      \field{sortinithash}{b685c7856330eaee22789815b49de9bb}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Learning Agile}
+      \field{year}{2014}
+      \keyw{Agile}
+    \endentry
+    \entry{elsevier0901}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=7f5b1c5b08deb877f2bb84ec864d9550}{Byron\bibnamedelimb J.\bibnamedelimi Williams}{B\bibinitperiod\bibinitdelim J\bibinitperiod\bibinitdelim W\bibinitperiod}{Jeffrey\bibnamedelimb C.\bibnamedelimi Carver}{J\bibinitperiod\bibinitdelim C\bibinitperiod\bibinitdelim C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{7f5b1c5b08deb877f2bb84ec864d9550}
+      \strng{fullhash}{7f5b1c5b08deb877f2bb84ec864d9550}
+      \field{labelalpha}{Byr09}
+      \field{sortinit}{B}
+      \field{sortinithash}{4ecbea03efd0532989d3836d1a048c32}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{ELSEVIER}
+      \field{month}{07}
+      \field{number}{32,33}
+      \field{title}{Characterizing Software Architecture Changes: A Systematic Review}
+      \field{year}{2009}
+      \verb{url}
+      \verb http://www.ic.unicamp.br/~wainer/outros/systrev/10.pdf
+      \endverb
+      \keyw{Software Architecture}
+    \endentry
+    \entry{Chappell01}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=9d9b3e61d7a060f5271b4376832602ba}{Chappell}{C\bibinitperiod}{David}{D\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{9d9b3e61d7a060f5271b4376832602ba}
+      \strng{fullhash}{9d9b3e61d7a060f5271b4376832602ba}
+      \field{labelalpha}{Chanp}
+      \field{sortinit}{C}
+      \field{sortinithash}{59f25d509f3381b07695554a9f35ecb2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{David Chappell & Associates}
+      \field{title}{THE THREE ASPECTS OF SOFTWARE QUALITY: FUNCTIONAL, STRUCTURAL, AND PROCESS}
+      \field{year}{n.p}
+      \keyw{Software Architecture}
+    \endentry
+    \entry{DanielPernici0601}{report}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=95c4d649efd0933fe935c7659b7ffb97}{Florian\bibnamedelima Daniel}{F\bibinitperiod\bibinitdelim D\bibinitperiod}{Barbara\bibnamedelima Pernici}{B\bibinitperiod\bibinitdelim P\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {International Journal of E-Business Research}%
+      }
+      \strng{namehash}{95c4d649efd0933fe935c7659b7ffb97}
+      \strng{fullhash}{95c4d649efd0933fe935c7659b7ffb97}
+      \field{labelalpha}{Flo08}
+      \field{sortinit}{F}
+      \field{sortinithash}{c6a7d9913bbd7b20ea954441c0460b78}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Insights into Web Service Orchestration and Choreography}
+      \field{type}{techreport}
+      \field{year}{2008}
+      \keyw{orchestration}
+    \endentry
+    \entry{Wesley0301}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=34dd9119d73b4582a78a72f41d943a13}{Len\bibnamedelima Bass}{L\bibinitperiod\bibinitdelim B\bibinitperiod}{Rick\bibnamedelima Kazman}{R\bibinitperiod\bibinitdelim K\bibinitperiod}{}{}{Paul\bibnamedelima Clements}{P\bibinitperiod\bibinitdelim C\bibinitperiod}}%
+      }
+      \list{publisher}{1}{%
+        {Addison Wesley}%
+      }
+      \strng{namehash}{34dd9119d73b4582a78a72f41d943a13}
+      \strng{fullhash}{34dd9119d73b4582a78a72f41d943a13}
+      \field{labelalpha}{Len03}
+      \field{sortinit}{L}
+      \field{sortinithash}{872351f18d0f736066eda0bf18bfa4f7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd}
+      \field{title}{Software Architecture in Practice}
+      \field{volume}{4}
+      \field{year}{2003}
+      \keyw{Software Architecture}
+    \endentry
+    \entry{microsoft1501}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=140864078aeca1c7c35b4beb33c53c34}{Microsoft}{M\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \strng{namehash}{140864078aeca1c7c35b4beb33c53c34}
+      \strng{fullhash}{140864078aeca1c7c35b4beb33c53c34}
+      \field{labelalpha}{Mic}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software Architecture and Design}
+      \verb{url}
+      \verb https://msdn.microsoft.com/en-us/library/ee658098.aspx
+      \endverb
+      \keyw{Software Architecture}
+    \endentry
+    \entry{Miyachi01}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=4c484d28824a964107c3440b98dbf629}{Miyachi}{M\bibinitperiod}{Christine}{C\bibinitperiod}{}{}{}{}}%
+      }
+      \strng{namehash}{4c484d28824a964107c3440b98dbf629}
+      \strng{fullhash}{4c484d28824a964107c3440b98dbf629}
+      \field{labelalpha}{Miy}
+      \field{sortinit}{M}
+      \field{sortinithash}{2684bec41e9697b92699b46491061da2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{How Software Architecture Learns}
+      \verb{url}
+      \verb http://www.methodsandtools.com/archive/softwarearchitecturelearning.php
+      \endverb
+      \keyw{Software Architecture}
+    \endentry
+    \entry{Newman1501}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b6be43602c2787d279f8522a7d9713db}{Newman}{N\bibinitperiod}{Sam}{S\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {O'Reilly Media, Inc.}%
+      }
+      \strng{namehash}{b6be43602c2787d279f8522a7d9713db}
+      \strng{fullhash}{b6be43602c2787d279f8522a7d9713db}
+      \field{labelalpha}{New15}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Building Microservices Designing Fine-Grained Systems}
+      \field{year}{2015}
+    \endentry
+    \entry{Northrop1501}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=b9c4177ceb01af7aefae9392a10bbdca}{Northrop}{N\bibinitperiod}{Linda}{L\bibinitperiod}{}{}{}{}}%
+      }
+      \list{institution}{1}{%
+        {Carnegie Mellon University}%
+      }
+      \strng{namehash}{b9c4177ceb01af7aefae9392a10bbdca}
+      \strng{fullhash}{b9c4177ceb01af7aefae9392a10bbdca}
+      \field{labelalpha}{Nor15}
+      \field{sortinit}{N}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Trends and New Directions in Software Architecture}
+      \field{year}{2015}
+      \verb{url}
+      \verb http://resources.sei.cmu.edu/asset_files/Webinar/2015_018_100_438676.pdf
+      \endverb
+    \endentry
+    \entry{CMS0801}{online}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=481e4ed1ae63677241e27c9ae32a286e}{n.p}{n\bibinitperiod}{}{}{}{}{}{}}%
+      }
+      \list{institution}{2}{%
+        {Center For Medicare}%
+        {Medicaid Services}%
+      }
+      \strng{namehash}{481e4ed1ae63677241e27c9ae32a286e}
+      \strng{fullhash}{481e4ed1ae63677241e27c9ae32a286e}
+      \field{labelalpha}{np08}
+      \field{sortinit}{n}
+      \field{sortinithash}{925374ca63e7594de7fafdb83e64d41d}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{month}{03}
+      \field{title}{SELECTING A DEVELOPMENT APPROACH}
+      \field{year}{2008}
+      \verb{url}
+      \verb http://www.cms.gov/Research-Statistics-Data-and-Systems/CMS-Information-Technology/XLC/Downloads/SelectingDevelopmentApproach.pdf
+      \endverb
+    \endentry
+    \entry{Sommerville0401}{book}{}
+      \name{author}{1}{}{%
+        {{uniquename=0,hash=70341b3bfcce7026902f4eb1e4111b58}{Sommerville}{S\bibinitperiod}{Ian}{I\bibinitperiod}{}{}{}{}}%
+      }
+      \list{publisher}{1}{%
+        {Pearson Education}%
+      }
+      \strng{namehash}{70341b3bfcce7026902f4eb1e4111b58}
+      \strng{fullhash}{70341b3bfcce7026902f4eb1e4111b58}
+      \field{labelalpha}{Som04}
+      \field{sortinit}{S}
+      \field{sortinithash}{fd1e7c5ab79596b13dbbb67f8d70fb5a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Software Engineering: Seventh Edition}
+      \field{year}{2004}
+    \endentry
+  \endsortlist
+\endrefsection
+\endinput
+
